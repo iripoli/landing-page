@@ -1,0 +1,118 @@
+.tech-logo{
+  height: 6rem;
+  width: 6rem;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.react-logo{
+  height: 6rem;
+  width: 6rem;
+}
+
+.angular-logo{
+  height: 6rem;
+  width: 6rem;
+}
+
+.node-logo{
+  height: 6rem;
+  width: 8rem;
+  padding: 1rem;
+}
+
+.js-logo{
+  height: 6rem;
+  width: 6rem;
+}
+
+.ts-logo{
+  height: 6rem;
+  width: 6rem;
+}
+
+.redux-logo{
+  height: 6rem;
+  width: 7rem;
+}
+
+.mongo-logo{
+  height: 2rem;
+  width: 8rem;
+  margin-top: 2rem;
+}
+
+.express-logo{
+  height: 5rem;
+  width: 9rem;
+  margin-top: 1rem;
+  margin-left: -1rem;
+}
+
+.css-logo{
+  height: 7rem;
+  width: 6rem;
+}
+
+.sass-logo{
+  height: 6rem;
+  width: 6rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+#tecnologies{
+  background-color: antiquewhite;
+
+}
+
+
+.portafolio-img{
+  height: 15rem;
+  box-sizing: border-box;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  border: 2px solid rgb(223, 240, 247);
+}
+
+
+.weatherImg{
+      margin-top: 0.50rem;
+      height: 13rem;
+}
+
+.botImg{
+  height: 12rem;
+  
+}
+
+.portafolio-github-button{
+  background-color: #24292e;
+  border: 0;
+  margin-right: 2rem;
+}
+
+.portafolio-github-button:hover{
+  opacity: 0.75;
+}
+
+.modal-img{
+  height: 15rem;
+}
+
+.botModal{
+  height: 14rem;
+}
+
+.portafolio-gitlab-button{
+  background-color: #6d49cb;
+  border: 0;
+}
