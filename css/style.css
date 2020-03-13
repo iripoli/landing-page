@@ -115,10 +115,17 @@
 .portafolio-gitlab-button{
   background-color: #6d49cb;
   border: 0;
+  margin-right: 2rem;
+
 }
 
 .about .lead{
   text-align: justify;
+}
+
+
+.row{
+  justify-content: center;
 }
 
 @media (min-width: 992px){
