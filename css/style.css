@@ -116,3 +116,13 @@
   background-color: #6d49cb;
   border: 0;
 }
+
+.about .lead{
+  text-align: justify;
+}
+
+@media (min-width: 992px){
+  .socialMedia{
+    margin-left: 18rem;
+  }
+}
