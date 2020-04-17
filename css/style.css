@@ -128,8 +128,20 @@
   justify-content: center;
 }
 
+.react-store{
+  margin-top: 8rem;
+}
+
 @media (min-width: 992px){
   .socialMedia{
     margin-left: 18rem;
   }
 }
+
+@media (min-width: 960px){
+  .react-store{
+    margin-top: 17rem;
+  }
+}
+
+

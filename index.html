@@ -157,10 +157,23 @@
         </div>
         <div class="divider-custom-line"></div>
       </div>
-
+      
       <!-- Portfolio Grid Items -->
       <div class="row">
 
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <div class="portafolio-img">
+              <img class="img-fluid botImg" src="img/portfolio/logo-react-store.png" alt="">
+            </div>
+          </div>
+        </div>
+        
         <!-- Portfolio Item 3 -->
         <div class="col-md-6 col-lg-4">
           <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
@@ -217,6 +230,8 @@
           </div>
         </div>
       </div>
+
+
 
 
 
@@ -555,8 +570,59 @@
     </div>
   </div>
 
-  <!-- Portfolio Modal 5 -->
+
   <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog"
+    aria-labelledby="portfolioModal2Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">React-Store</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <div class="modal-img">
+                  <img class="img-fluid rounded mb-5" src="img/react-store.png" alt="">
+                </div>
+                <!-- Portfolio Modal - Text -->
+                <p class="mb-5 react-store">Demo of a clothing store made with react and redux, the back-end is made with firebase.</p>
+                <button class="btn btn-primary portafolio-github-button"
+                  onclick="window.location.href = 'https://github.com/iripoli/online-store';">
+                  <i class="fab fa-github"> </i>
+                  GitHub
+                </button>
+                <button class="btn btn-primary" 
+                onclick="window.location.href = 'https://iripoli.github.io/online-store/';">
+                <i class="fas fa-link"></i>
+                  Live App
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- Portfolio Modal 5 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog"
     aria-labelledby="portfolioModal5Label" aria-hidden="true">
     <div class="modal-dialog modal-xl" role="document">
       <div class="modal-content">
